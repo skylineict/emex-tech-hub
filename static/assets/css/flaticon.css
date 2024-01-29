@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts/flaticonfb01.ttf?6e11236a8a69b72d079a0bce1a2833cd") format("truetype"),
+url("../fonts/flaticonfb01.woff?6e11236a8a69b72d079a0bce1a2833cd") format("woff"),
+url("../fonts/flaticonfb01.woff2?6e11236a8a69b72d079a0bce1a2833cd") format("woff2"),
+url("../fonts/flaticonfb01.eot?6e11236a8a69b72d079a0bce1a2833cd#iefix") format("embedded-opentype"),
+url("../fonts/flaticonfb01.svg?6e11236a8a69b72d079a0bce1a2833cd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-email:before {
+    content: "\f101";
+}
+.flaticon-clock:before {
+    content: "\f102";
+}
+.flaticon-magnifying-glass:before {
+    content: "\f103";
+}
+.flaticon-phone-call:before {
+    content: "\f104";
+}
+.flaticon-right-arrow:before {
+    content: "\f105";
+}
+.flaticon-meeting:before {
+    content: "\f106";
+}
+.flaticon-wifi:before {
+    content: "\f107";
+}
+.flaticon-tray:before {
+    content: "\f108";
+}
+.flaticon-parking:before {
+    content: "\f109";
+}
+.flaticon-room:before {
+    content: "\f10a";
+}
+.flaticon-cctv:before {
+    content: "\f10b";
+}
+.flaticon-event:before {
+    content: "\f10c";
+}
+.flaticon-id-card:before {
+    content: "\f10d";
+}
+.flaticon-key:before {
+    content: "\f10e";
+}
+.flaticon-work-station:before {
+    content: "\f10f";
+}
+.flaticon-placeholder:before {
+    content: "\f110";
+}
+.flaticon-message:before {
+    content: "\f111";
+}
+.flaticon-computer:before {
+    content: "\f112";
+}
+.flaticon-chat:before {
+    content: "\f113";
+}
+.flaticon-plus-symbol:before {
+    content: "\f114";
+}

@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+
+    
+</style>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+<title>Emex Tech Hub</title>
+
+<!-- Fav Icon -->
+<link rel="icon" href="logo.jpg" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet">
+
+<!-- Stylesheets -->
+<link href="{% static 'assets/css/font-awesome-all.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/flaticon.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/owl.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/jquery.fancybox.min.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/animate.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/color.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/global.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/elpath.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+<link href="{% static 'assets/css/responsive.css' %}" rel="stylesheet">
+
+</head>
+
+
+<!-- page wrapper -->
+<body>
+
+    <div class="boxed_wrapper">
+
+
+        <!-- preloader -->
+        <div class="loader-wrap">
+            <div class="preloader">
+                <div class="preloader-close">x</div>
+                <div id="handle-preloader" class="handle-preloader">
+                    <div class="animation-preloader">
+                        <div class="spinner"></div>
+                        <div class="txt-loading">
+                            <span data-text-preloader="E" class="letters-loading">
+                                E
+                            </span>
+                            <span data-text-preloader="M" class="letters-loading">
+                                M
+                            </span>
+                            <span data-text-preloader="E" class="letters-loading">
+                                E
+                            </span>
+                            <span data-text-preloader="X" class="letters-loading">
+                                X
+                           
+                          
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+
+        <!-- main header -->
+        <header class="main-header">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="top-inner clearfix">
+                    <div class="left-column pull-left">
+                        <ul class="info-list clearfix">
+                            <li><i class="flaticon-email"></i><a href="info@emexhub.com">info@emexhub.com</a></li>
+                            <li><i class="flaticon-clock"></i>+234 08emex</li>
+                        </ul>
+                    </div>
+                
+                </div>
+            </div>
+            <!-- header-lower -->
+            <div class="header-lower">
+                <div class="outer-box clearfix">
+                    <div class="logo-box pull-left">
+                        <figure class="logo"><a href="index.html"><img src="{% static 'logo.jpg' %}" alt=""></a></figure>
+                       
+                    </div>
+                    <div class="menu-area clearfix pull-right">
+                        <!--Mobile Navigation Toggler-->
+                        <div class="mobile-nav-toggler">
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                            <i class="icon-bar"></i>
+                        </div>
+                        <nav class="main-menu navbar-expand-md navbar-light">
+                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+                                <ul class="navigation clearfix">
+                                    <li><a href="index.html">Home</a>
+
+
+                                        <li><a href="index.html">Emex Global Initiative</a>
+                                      
+                                        </li>
+                                       
+                                    </li>
+                                    <li class="dropdown" ><a href="" class="btn-btn">Service</a>
+                                        <ul>
+                                            <li><a href="software.html">Software Consulting</a></li>
+                                            <li><a href="security.html">Renewable Energy</a></li>
+                                            <li><a href="cctv.html">Security Solutions</a></li>
+                                            
+                                        </ul>
+                                    </li> 
+                                    <li><a href="about us.html">About Us</a>
+                                      
+                                    </li>
+
+                                    <li><a href="training.html">Training Programs</a>
+                                      
+                                    </li>
+                                   
+                                    <li><a href="contact.html">Contact</a></li> 
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+        </header>
+        <!-- main-header end -->
+
+        <!-- Mobile Menu  -->
+        <div class="mobile-menu">
+            <div class="menu-backdrop"></div>
+            <div class="close-btn"><i class="fas fa-times"></i></div>
+            
+            <nav class="menu-box">
+                <div class="nav-logo"><a href="index.html"><img src="{% static 'logo.png' %}" alt="" title=""></a></div>
+                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+               
+               
+            </nav>
+        </div><!-- End Mobile Menu -->
+
+
+        <!-- banner-section -->
+        <section class="banner-section centred p_relative">
+            <div class="banner-carousel owl-theme owl-carousel owl-dots-none">
+                <div class="slide-item p_relative pt_160 pb_90">
+                    <div class="image-layer p_absolute" style="background-image:url(img/cctv.jpg)"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <h1 class="color_white d_block fs_80 lh_90 mb_20 fw_bold">Secure & Monitor <br /> your Property</h1>
+                            <h3 class="fs_24 fw_medium lh_30 color_white mb_45"> achieve your security and surveillance needs</h3>
+                            <div class="btn-box clearfix">
+                                <a href="book.html" class="theme-btn btn-two"><span>Book Your Tour</span></a>
+                            </div>
+                            <ul class="info-list clearfix p_relative d_block mt_130">
+                                <li class="fs_20 lh_30 fw_bold color_white">+ 234-8101534598</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">Boi-Rsu Innovation Hub</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">info@</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+                <div class="slide-item p_relative pt_160 pb_90">
+                    <div class="image-layer p_absolute" style="background-image:url(img/1.jpg)"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <h1 class="color_white d_block fs_80 lh_90 mb_20 fw_bold">Empowering Futures  <br /> Powering Progress</h1>
+                            <h3 class="fs_24 fw_medium lh_30 color_white mb_45">Explore Sustainable Solutions with Emex Technology Hub."</h3>
+                            <div class="btn-box clearfix">
+                                <a href="book.html" class="theme-btn btn-two"><span>Book Your Tour</span></a>
+                            </div>
+                            <ul class="info-list clearfix p_relative d_block mt_130">
+                                <li class="fs_20 lh_30 fw_bold color_white">+ 234-8101534598</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">Boi-Rsu Innovation Hub</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">info@</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+
+
+                <div class="slide-item p_relative pt_160 pb_90">
+                    <div class="image-layer p_absolute" style="background-image:url(img/LEADERSHIP.jpg)"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <h1 class="color_white d_block fs_80 lh_90 mb_20 fw_bold">Elevate Your World <br />Emex Technology Hub</h1>
+                            <h3 class="fs_24 fw_medium lh_30 color_white mb_45">Where Innovation Meets Impact</h3>
+                            <div class="btn-box clearfix">
+                                <a href="book.html" class="theme-btn btn-two"><span>Book Your Tour</span></a>
+                            </div>
+                            <ul class="info-list clearfix p_relative d_block mt_130">
+                                <li class="fs_20 lh_30 fw_bold color_white">+ 234-8101534598</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">Boi-Rsu Innovation Hub</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">info@
+                                </ul></li>
+                        </div> 
+                    </div>
+                </div>
+                <div class="slide-item p_relative pt_160 pb_90">
+                    <div class="image-layer p_absolute" style="background-image:url(img/sofware.jpg)"></div>
+                    <div class="auto-container">
+                        <div class="content-box p_relative d_block z_5">
+                            <h1 class="color_white d_block fs_80 lh_90 mb_20 fw_bold">We transform ideas  <br /> into reality</h1>
+                            <h3 class="fs_24 fw_medium lh_30 color_white mb_45"> Using software development</h3>
+                            <div class="btn-box clearfix">
+                                <a href="book.html" class="theme-btn btn-two"><span>Book Your Tour</span></a>
+                            </div>
+                            <ul class="info-list clearfix p_relative d_block mt_130">
+                                <li class="fs_20 lh_30 fw_bold color_white">+ 234-8101534598</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">Boi-Rsu Innovation Hub</li>
+                                <li class="fs_20 lh_30 fw_bold color_white">info@</li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- banner-section end -->
+
+
+        
+
+
+
+        <section class="service-style-two p_relative sec-pad">
+            <div class="auto-container">
+                <div class="title-inner">
+                    <div class="row clearfix">
+                        <div class="col-lg-6 col-md-12 col-sm-12 title-column">
+                            <div class="sec-title p_relative d_block mb_50 light">
+                                <span class="p_relative d_block fs_16 lh_20 fw_medium pt_20 mb_6">what we’re offering</span>
+                                <h2 class="fw_bold">What We Do</h2>
+                            </div>
+                        </div>
+                     
+                    </div>
+                </div>
+                <div class="row clearfix centred">
+                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block pt_50 pr_40 pb_50 pl_40 white-bg mb_30">
+                                <div class="icon-box p_relative d_iblock fs_65 lh_65 orange-color mb_15 z_1 tran_5"><i class="flaticon-wifi"></i></div>
+                                <h4 class="d_block fs_20 lh_26 fw_bold mb_25 tran_5"><a href="index.html" class="d_iblock blue-color">Renewable Energy Solutions</a></h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block pt_50 pr_40 pb_50 pl_40 white-bg mb_30">
+                                <div class="icon-box p_relative d_iblock fs_65 lh_65 orange-color mb_15 z_1 tran_5"><i class="flaticon-tray"></i></div>
+                                <h4 class="d_block fs_20 lh_26 fw_bold mb_25 tran_5"><a href="index.html" class="d_iblock blue-color">Security Solutions</a></h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block pt_50 pr_40 pb_50 pl_40 white-bg mb_30">
+                                <div class="icon-box p_relative d_iblock fs_65 lh_65 orange-color mb_15 z_1 tran_5"><i class="flaticon-parking"></i></div>
+                                <h4 class="d_block fs_20 lh_26 fw_bold mb_25 tran_5"><a href="index.html" class="d_iblock blue-color">Software Consulting</a></h4>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 service-block">
+                        <div class="service-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block pt_50 pr_40 pb_50 pl_40 white-bg">
+                                <div class="icon-box p_relative d_iblock fs_65 lh_65 orange-color mb_15 z_1 tran_5"><i class="flaticon-cctv"></i></div>
+                                <h4 class="d_block fs_20 lh_26 fw_bold mb_25 tran_5"><a href="index.html" class="d_iblock blue-color">Emex Global Initiative</a></h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+ 
+        <!-- feature-section end -->
+
+
+        <!-- about-section -->
+        <section class="about-section p_relative sec-pad">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_1">
+                            <div class="content-box p_relative d_block mr_100">
+                                <div class="sec-title p_relative d_block mb_30">
+                    
+                                    <h2 class="fw_bold">About Emex Technology Hub</h2>
+                                </div>
+                                <div class="text p_relative d_block mb_30">
+                                    <h4 class="fs_20 lh_36 fw_medium orange-color mb_35">At Emex Technology Hub, we believe in the transformative power of innovation.</h4>
+                                    <p>Our commitment extends beyond providing cutting-edge solutions; we are on a mission to empower communities and shape a sustainable future. As a proud affiliate of Emex Global Initiative, an NGO dedicated to training and empowering young minds in technology, 
+                                        we bring a unique blend of expertise and social responsibility.</p>
+                                </div>
+                                <div class="inner-box p_relative d_block mb_40">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item p_relative d_block">
+                                                <h5 class="p_relative d_block fs_18 lh_30 fw_bold pl_17 mb_12">Our Vision</h5>
+                                                <p class="fs_16 lh_30">To be a catalyst for positive change through technology, fostering innovation,
+                                                     and creating opportunities for the next generation of tech leaders.</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 single-column">
+                                            <div class="single-item p_relative d_block">
+                                                <h5 class="p_relative d_block fs_18 lh_30 fw_bold pl_17 mb_12">Our Mission</h5>
+                                                <p class="fs_16 lh_30">To provide innovative solutions, promote sustainable practices, and bridge the
+                                                     gap in technology education, ensuring a brighter future for all.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="image_block_1">
+                            <div class="image-box p_relative d_block">
+                                <figure class="image image-1 p_relative d_block mb_30"><img src="{% static 'img/cctv-towers.jpg' %}" alt=""></figure>
+                                <figure class="image image-2 p_relative d_block"><img src="{% static 'img/software-dev.png' %}" alt=""></figure>
+                                <div class="text"><h6 class="fs_16 lh_20 fw_bold">Emex Technology Hub</h6></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-section end -->
+
+
+          <!-- trusted-section -->
+          <section class="trusted-section alternat-2 centred p_relative pt_110 pb_120" style="background-image: url(assets/images/background/trusted-bg.jpg);">
+            <div class="auto-container">
+                <div class="inner-box">
+                    <h2 class="d_block fs_46 lh_60 color_white fw_bold mb_45">Do you need tech skills?   <br />Are you ready to become a solution?</h2>
+                    <a href="" class="theme-btn btn-two"><span>APPLY NOW</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="events-section p_relative sec-pad">
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                        <div class="content_block_2">
+                            <div class="content-box p_relative d_block mr_70">
+                                <div class="sec-title p_relative d_block mb_30">
+                                  
+                                    <h3 class="d_block fs_24 lh_30 fw_bold mb_40"><a href="event-details.html" class="d_iblock blue-color hov-color">Software Consulting</a></h3>
+                                </div>
+                            
+                                <ul class="list clearfix mb_45">
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Custom Software Development</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Web Development</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Fintech</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Mobile App Development</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Software Training</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Cloud Computing Solutions</li>
+                                    <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Product Management</li>
+                                </ul>
+                                <div class="btn-box">
+                                    <a href="" class="theme-btn btn-two"><span>View all </span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 inner-column">
+                        <div class="inner-content">
+                            <div class="events-block-one">
+                                <div class="inner-box p_relative d_block pt_14 pb_14 mb_120">
+                                    <figure class="image-box p_absolute l_0 t_0">
+                                        <img src="{% static 'img/Daystar.jpg' %}" alt="">
+                                        
+                                    </figure>
+                                    <h3 class="d_block fs_24 lh_30 fw_bold mb_40"><a href="event-details.html" class="d_iblock blue-color hov-color">Renewable Energy Solutions</a></h3>
+                                    <ul class="list clearfix mb_45">
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Solar Power</li>
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Wind Power</li>
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Fintech</li>
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Hydrogen Production</li>
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Maintenance and Repairs</li>
+                                        <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Training of Personnel</li>
+
+                                    </ul>
+                                   
+                                </div>
+                            </div>
+                            <div class="events-block-one">
+                                <div class="events-block-one">
+                                    <div class="inner-box p_relative d_block pt_14 pb_14 mb_120">
+                                        <figure class="image-box p_absolute l_0 t_0">
+                                            <img src="{% static 'img/Daystar.jpg' %}" alt="">
+                                            
+                                        </figure>
+                                        <h3 class="d_block fs_24 lh_30 fw_bold mb_40"><a href="event-details.html" class="d_iblock blue-color hov-color">Security Consultant</a></h3>
+                                        <ul class="list clearfix mb_45">
+                                            <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">CCTV</li>
+                                            <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Incident Tracking</li>
+                                            <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Maintenance and Repair</li>
+                                            <li class="p_relative d_block fs_18 fw_medium blue-color pl_25">Training of Personnel</li>
+    
+                                        </ul>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+  
+
+
+
+
+
+        <!-- events-section -->
+      
+        <!-- events-section end -->
+
+
+        <!-- news-section -->
+        <section class="news-section p_relative sec-pad">
+            <div class="pattern-layer p_absolute l_0" style="background-image: url(assets/images/shape/shape-3.png);"></div>
+            <div class="auto-container">
+                <div class="sec-title p_relative d_block mb_50 centred">
+                    <span class="p_relative d_block fs_16 lh_20 fw_medium pt_20 mb_6">HOW WE HELP CLIENTS</span>
+                    <h2 class="fw_bold">News & Articles</h2>
+                </div>
+                <div class="row clearfix">
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block white-bg b_shadow_6">
+                                <div class="image-box p_relative d_block">
+                                    <figure class="image p_relative d_block"><a href="blog-details.html"><img src="{% static 'assets/images/news/news-1.jpg' %}" alt=""></a></figure>
+                                    <span class="post-date p_absolute r_0 b_0 w_100 pt_10 pb_10 orange-bg color_white fs_12 lh_20 fw_bold centred">20 Sep</span>
+                                </div>
+                                <div class="lower-content p_relative d_block pt_30 pr_40 pb_30 pl_40">
+                                    <ul class="post-info clearfix">
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20 mr_5"><i class="far fa-user-circle"></i><a href="blog-details.html" class="d_iblock hov_color">Admin</a></li>
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20"><i class="far fa-comments"></i><a href="blog-details.html" class="d_iblock hov_color">2 Comments</a></li>
+                                    </ul>
+                                    <h3 class="d_block fs_24 lh_34 fw_bold mb_11"><a href="blog-details.html" class="d_iblock blue-color hov-color">Learn to achieve more with your nine to six</a></h3>
+                                    <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_16 lh_20 fw_medium pb_2">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block white-bg b_shadow_6">
+                                <div class="image-box p_relative d_block">
+                                    <figure class="image p_relative d_block"><a href="blog-details.html"><img src="{% static 'assets/images/news/news-2.jpg' %}" alt=""></a></figure>
+                                    <span class="post-date p_absolute r_0 b_0 w_100 pt_10 pb_10 orange-bg color_white fs_12 lh_20 fw_bold centred">19 Sep</span>
+                                </div>
+                                <div class="lower-content p_relative d_block pt_30 pr_40 pb_30 pl_40">
+                                    <ul class="post-info clearfix">
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20 mr_5"><i class="far fa-user-circle"></i><a href="blog-details.html" class="d_iblock hov_color">Admin</a></li>
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20"><i class="far fa-comments"></i><a href="blog-details.html" class="d_iblock hov_color">1 Comments</a></li>
+                                    </ul>
+                                    <h3 class="d_block fs_24 lh_34 fw_bold mb_11"><a href="blog-details.html" class="d_iblock blue-color hov-color">Working from this place is a pleasure</a></h3>
+                                    <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_16 lh_20 fw_medium pb_2">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                            <div class="inner-box p_relative d_block white-bg b_shadow_6">
+                                <div class="image-box p_relative d_block">
+                                    <figure class="image p_relative d_block"><a href="blog-details.html"><img src="{% static 'assets/images/news/news-3.jpg' %}" alt=""></a></figure>
+                                    <span class="post-date p_absolute r_0 b_0 w_100 pt_10 pb_10 orange-bg color_white fs_12 lh_20 fw_bold centred">18 Sep</span>
+                                </div>
+                                <div class="lower-content p_relative d_block pt_30 pr_40 pb_30 pl_40">
+                                    <ul class="post-info clearfix">
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20 mr_5"><i class="far fa-user-circle"></i><a href="blog-details.html" class="d_iblock hov_color">Admin</a></li>
+                                        <li class="p_relative d_iblock fs_14 fw_medium pl_20"><i class="far fa-comments"></i><a href="blog-details.html" class="d_iblock hov_color">5 Comments</a></li>
+                                    </ul>
+                                    <h3 class="d_block fs_24 lh_34 fw_bold mb_11"><a href="blog-details.html" class="d_iblock blue-color hov-color">Vivamus in diam turpis maximus tristique.</a></h3>
+                                    <div class="link"><a href="blog-details.html" class="p_relative d_iblock fs_16 lh_20 fw_medium pb_2">Read More</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- news-section end -->
+
+
+        <!-- main-footer -->
+        <footer class="main-footer">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-4.png);"></div>
+            <div class="auto-container">
+                <div class="footer-top">
+                    <div class="row clearfix">
+                        <div class="col-lg-4 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget about-widget mr_70">
+                                <div class="widget-content">
+                                    <h2>Need a quick help or have questions?</h2>
+                                    <h5>Call Anytime</h5>
+                                    <h3><a href="tel:12463330079">+1- (246) 333-0079</a></h3>
+                                    <ul class="footer-social clearfix">
+                                        <li><a href="index.html"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-instagram"></i></a></li>
+                                        <li><a href="index.html"><i class="fab fa-dribbble"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget links-widget">
+                                <div class="widget-title">
+                                    <h4>Links</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="links-list clearfix">
+                                        <li><a href="about.html">About us</a></li>
+                                        <li><a href="events.html">Latest events</a></li>
+                                        <li><a href="about.html">Our services</a></li>
+                                        <li><a href="blog.html">News & articles</a></li>
+                                        <li><a href="contact.html">Contact us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget shediul-widget">
+                                <div class="widget-title">
+                                    <h4>Timing</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="list clearfix">
+                                        <li>Mon Fri: 7:00AM - 6:00PM</li>
+                                        <li>Saturday: 9:00AM - 5:00PM</li>
+                                        <li>Sunday: Closed</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 footer-column">
+                            <div class="footer-widget contact-widget">
+                                <div class="widget-title">
+                                    <h4>Contact</h4>
+                                </div>
+                                <div class="widget-content">
+                                    <ul class="info-list clearfix">
+                                        <li>
+                                            <i class="flaticon-placeholder"></i>
+                                            <p>60 Broklyn Street, New York</p>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-message"></i>
+                                            <p><a href="mailto:needhelp@company.com">needhelp@company.com</a></p>
+                                        </li>
+                                        <li>
+                                            <i class="flaticon-phone-call"></i>
+                                            <p><a href="tel:12463330079">+1- (246) 333-0079</a></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom centred">
+                    <div class="copyright">
+                        <p>&copy; Copyright 2022 by <a href="index.html">Komito</a>.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- main-footer end -->
+
+
+        <!--Scroll to top-->
+        <button class="scroll-top scroll-to-target" data-target="html">
+            <span class="fal fa-long-arrow-up"></span>
+        </button>
+    </div>
+
+
+    <!-- jequery plugins -->
+    <script src="{% static 'assets/js/jquery.js' %}"></script>
+    <script src="{% static 'assets/js/popper.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/js/owl.js' %}"></script>
+    <script src="{% static 'assets/js/wow.js' %}"></script>
+    <script src="{% static 'assets/js/validation.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.fancybox.js' %}"></script>
+    <script src="{% static 'assets/js/appear.js' %}"></script>
+    <script src="{% static 'assets/js/scrollbar.js' %}"></script>
+    <script src="{% static 'assets/js/isotope.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+
+    <!-- main-js -->
+    <script src="{% static 'assets/js/script.js' %}"></script>
+
+</body><!-- End of .page_wrapper -->
+
+<!-- Mirrored from azim.commonsupport.com/Komito/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Dec 2023 11:08:20 GMT -->
+</html>
